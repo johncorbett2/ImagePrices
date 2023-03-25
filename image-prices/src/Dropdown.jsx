@@ -3,12 +3,16 @@ import React from "react";
 function Dropdown() {
     return <div>
         <form>
-            <label>Choose Image</label>
+            <label>Choose Image: </label>
             <input placeholder="Enter Image"/>
-            <label>Choose Body Part</label>
+            <br></br>
+            <label>Choose Body Part: </label>
             <input placeholder="Enter Body Part"/>
-            <label>Choose Contrast</label>
+            <br></br>
+            <label>Choose Contrast: </label>
             <input placeholder="Enter Contrast"/>
+            <br></br>
+            <input type="submit" value="Search"/>
         </form>
     </div>
 
